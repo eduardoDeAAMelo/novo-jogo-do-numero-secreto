@@ -10,10 +10,10 @@
     <div id="conteudo">
         <div id="conteudo__dois">
             <h1 id="titulo">Jogo do Número Secreto</h1>
-            <h2 id="subtitulo">Advinhe o número secreto</h2>
-            <input type="number" class="numero__digitado" placeholder="Digite aqui" >
+            <h2 id="subtitulo">Escolha um número entre 1 à 100</h2>
+            <input type="number" id="numero__digitado" placeholder="Digite aqui">
             <div id="botoes">
-                <button onclick="chutarNumero()" id="chute">Chutar</button>
+                <button onclick="verificarChute()" id="chute">Chutar</button>
                 <button onclick="resetarJogo()" id="resetar">Resetar</button>
             </div>
         </div>

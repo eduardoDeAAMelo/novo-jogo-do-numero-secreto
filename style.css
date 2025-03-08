@@ -49,7 +49,7 @@ body {
     text-shadow: 3px 5px 10px black;
 }
 
-.numero__digitado {
+#numero__digitado {
     display: flex;
     width: 80%;
     height: 50px;
@@ -72,10 +72,16 @@ body {
     border-radius: 10px;
     cursor: pointer;
     margin-left: 10%;
-    border: 1px solid black;
     background-image: linear-gradient(rgb(190, 91, 247), rgb(229, 189, 255),rgb(233, 195, 255), rgb(190, 91, 247));
     box-shadow: 5px 5px 5px black;
     font-size: 17px;
+}
+
+#chute:hover{
+    background-image: linear-gradient(rgb(121, 121, 121), rgb(121, 121, 121), rgb(121, 121, 121));
+}
+#resetar:hover{
+    background-image: linear-gradient( rgb(121, 121, 121), rgb(121, 121, 121), rgb(121, 121, 121));
 }
 
 @media (max-width:700px) {
