@@ -81,11 +81,11 @@ body {
 @media (max-width:700px) {
     body {
         height: auto;
-        padding: 10%;
+        padding: 10% 2%;
         background-color: black;
     }
     #conteudo {
-        width: 90%;
+        width: 95%;
         height: auto;
         flex-direction: column-reverse;
         padding-bottom: 10%;
