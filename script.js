@@ -1,6 +1,5 @@
 let numeroLimite = 100;
 let numeroSecreto = parseInt(Math.random()*numeroLimite)+1;
-console.log(numeroSecreto);
 let tentativas = 1;
 let botaoResetar = document.getElementById('resetar');
 botaoResetar.disabled = true;
@@ -35,7 +34,6 @@ function resetarJogo(){
     numeroLimite = 100;
     numeroSecreto = parseInt(Math.random()*numeroLimite);
     subtitulo.innerHTML = "Escolha um número entre 1 à 100";
-    console.log(numeroSecreto);
     tentativas = 1;
     botaoResetar.disabled = true;
 
